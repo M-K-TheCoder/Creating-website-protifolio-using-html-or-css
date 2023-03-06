@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: "raboto sans-serif";
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/200.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 21%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin: 40px;
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 40px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: #111110;
+    font-size: 15px;
+
+
+}
+
+.row {
+    color: rgb(205, 218, 27);
+    display: flex;
+    height: 88%;
+    align-items: center;
+    font-size: 40px;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 600%;
+}
+
+p {
+    color: blue;
+    font-size: 11px;
+    line-height: 15ppx;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 100%;
+}
+
+p {
+    color: rgb(25, 192, 75);
+    font-size: 20px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
